@@ -9,6 +9,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="12dp"
+        android:background="@color/white"
         tools:context=".UpdateNoteFragment">
 
         <TextView
@@ -28,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:hint="Enter the title"
+            android:textColor="@color/black"
             android:padding="12dp"
             android:textSize="20sp"
             android:layout_below="@id/editNoteHeading"
@@ -41,6 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Enter the description"
+            android:textColor="@color/black"
             android:gravity="top"
             android:padding="12dp"
             android:textSize="18sp"
@@ -48,6 +51,18 @@
             android:background="@drawable/pink_boder"
             android:layout_below="@id/editNoteTitle"
             android:layout_marginTop="12dp" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:id="@+id/deletebutton"
+            android:src="@drawable/baseline_delete_24"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="18dp"
+
+            />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/editNoteFab"
