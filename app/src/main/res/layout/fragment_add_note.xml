@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginTop="16dp"
-            android:fontFamily="@font/poppins_thin"
+            android:fontFamily="@font/poppins"
             android:text="Add Note."
             android:textColor="@color/red"
             android:textSize="24sp"
@@ -31,7 +31,7 @@
             android:padding="12dp"
             android:textSize="20sp"
             android:layout_below="@id/addNoteHeading"
-            android:background="@drawable/pink_border"
+            android:background="@drawable/pink_boder"
             android:layout_marginTop="16dp"
             android:maxLines="1"
             android:fontFamily="@font/poppins"/>
@@ -45,7 +45,7 @@
             android:padding="12dp"
             android:textSize="18sp"
             android:fontFamily="@font/poppins"
-            android:background="@drawable/pink_border"
+            android:background="@drawable/pink_boder"
             android:layout_below="@id/addNoteTitle"
             android:layout_marginTop="12dp" />
 
