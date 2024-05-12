@@ -71,4 +71,8 @@ dependencies {
     // Annotation processor
     ksp("androidx.lifecycle:lifecycle-compiler:$lifecycleVersion")
 
+
+
+
+
 }
